@@ -1,0 +1,34 @@
+body {
+    background: rgb(90, 12, 163);
+    background: linear-gradient(to right, rgb(90, 12, 163), rgb(195, 131, 255));
+  }
+  #c1{
+    height: 100vh;
+    
+  }
+  
+  .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('../../assets/img/icon].jpg');
+    background-size:repeat;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  #btn
+  {
+    background-color: rgb(90, 12, 163);
+    border: 1px solid rgb(90, 12, 163);
+  }
+  input:focus{
+	border-bottom-color: rgb(90, 12, 163);
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+}
+
+  
+  

@@ -1,0 +1,64 @@
+body {
+    line-height: 1.6;
+    margin: 2em;
+    min-width: 990px;
+    background: linear-gradient(to right, rgb(90, 12, 163), rgb(195, 131, 255));
+}
+
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* Column types */
+th.missed-col {
+    background-color: #f00;
+}
+
+td.missed-col {
+    background-color: #ffecec;
+    color: #f00;
+    text-align: center;
+}
+
+.name-col {
+    text-align: left;
+}
+#t2{
+    margin-left: 620px;
+    margin-top: 100px;
+}
+#head
+{
+    text-align: center;
+    color: rgb(90, 12, 163);
+}
+.nav a{
+    color: black;
+    /* text-decoration: underline blueviolet; */
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    justify-content: space-between;
+}
+
+.nav a{
+    margin-top: -80px;
+    margin-right: 30px;
+}
+.nav a:hover{
+    background-color: rgb(90, 12, 163);
+    color: white;
+    transition: 0.6s;
+}

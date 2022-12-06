@@ -1,0 +1,96 @@
+<body>
+    <div  class="container   ">
+        <img class="" src="../../assets/img/download.jpg" width="350px" height="100px" alt="">
+        <ul class="nav justify-content-end  ">
+            <!-- <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Batches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Assignments</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="#">Attendace</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link " href="#" (click)="logout()">Logout</a>
+                </li>
+        </ul>
+    </div>
+    <h1 id="heading1">Welcome  : {{user}}</h1>
+    <div class="main-container">
+      <div class="cards">
+       <a style="text-decoration: none;" href="" routerLink="/assignment">
+        <div class="card card-1">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">ASSIGNMENTS</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw <i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+
+       </a> 
+       <a style="text-decoration: none;" href="" routerLink="/attendance">
+
+        <div class="card card-2">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">ATTENDANCE</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw<i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+        </a>
+        <a style="text-decoration: none;" href="" routerLink="/register">
+
+        <div class="card card-3">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">VIDEOS</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw<i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+        </a>
+        <a style="text-decoration: none;" href="" routerLink="/register">
+
+        <div class="card card-4">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">BATCHES</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw<i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+        </a>
+        <a style="text-decoration: none;" href="" routerLink="/register">
+
+        <div class="card card-5">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">ANNOUNCEMENTS</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw<i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+        </a>
+        <a style="text-decoration: none;" href="" routerLink="/register">
+
+        <div class="card card-1">
+          <div class="card__icon"><i class="fas fa-bolt"></i></div>
+          <p class="card__exit"><i class="fas fa-times"></i></p>
+          <h2 class="card__title">STUDY MATERIALS</h2>
+          <p class="card__apply">
+            <a class="card__link" href="#">Tap to veiw<i class="fas fa-arrow-right"></i></a>
+          </p>
+        </div>
+        </a>
+      </div>
+    </div>
+</body>
